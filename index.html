@@ -1,0 +1,26 @@
+<html >
+    <head>
+        <script src="processing.js"></script>
+        <script src="./p5/p5.js"></script>
+        <script src="./Neural_Network/matrix.js"></script>
+        <script src="./Neural_Network/neuralNetwork.js"></script>
+        <script src="plot.js"></script>
+        <style>
+                body {
+                    background-color: rgb(131, 145, 155);
+                }
+                button {
+                    font-size: 20px;
+                    margin: 10px;
+                }
+        </style>
+    </head>
+    <body>
+        <button id = "train" onclick="clickedTrain()">Train</button>
+        <button id = "test" onclick="clickedTest()">Test Efficency</button>
+        <button id = "test" onclick="clickedGuess()">Guess</button>
+        <button id = "reset" onclick="clickedReset()">Reset</button>
+        <div id = "container"></div>
+        <div id="result"></div>
+    </body>
+</html>
